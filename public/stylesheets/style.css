@@ -1,0 +1,510 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600;800&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    scroll-behavior: smooth;
+}
+p{
+font-weight: 300;
+color: #111;
+}
+body
+{
+    min-height: 2000px;
+}
+.banner
+{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:url(/backgr-1.jpg);
+    background-size: cover;
+}
+.bannermonitors
+{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:url(/backgr-2.jpg);
+    background-size: cover;
+}
+.bannerprinters
+{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:url(/backgr-3.jpg);
+    background-size: cover;
+}
+.bannerdesktop
+{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:url(/backgr-4.jpg);
+    background-size: cover;
+}
+.bannerlaptop
+{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:url(/backgr-5.jpg);
+    background-size: cover;
+}
+.bannerswitch
+{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:url(/backgr-6.jpg);
+    background-size: cover;
+}
+.banner .content 
+{
+max-width: 900px;
+text-align: center;
+}
+.banner .content h2{
+font-size: 5em;
+color: #ffffff;
+
+}
+.banner .content p{
+font-size: 1em;
+color: #ffffff;
+}
+
+.bannermonitors .content 
+{
+max-width: 900px;
+text-align: center;
+}
+.bannermonitors .content h2{
+font-size: 5em;
+color: #ffffff;
+
+}
+.bannermonitors .content p{
+font-size: 1em;
+color: #ffffff;
+}
+.bannerprinters .content 
+{
+max-width: 900px;
+text-align: center;
+}
+.bannerprinters .content h2{
+font-size: 5em;
+color: #ffffff;
+
+}
+.bannerprinters .content p{
+font-size: 1em;
+color: #ffffff;
+}
+
+.bannerdesktop .content 
+{
+max-width: 900px;
+text-align: center;
+}
+.bannerdesktop .content h2{
+font-size: 5em;
+color: #ffffff;
+
+}
+.bannerdesktop .content p{
+font-size: 1em;
+color: #ffffff;
+}
+.bannerlaptop .content 
+{
+max-width: 900px;
+text-align: center;
+}
+.bannerlaptop .content h2{
+font-size: 5em;
+color: #ffffff;
+
+}
+.bannerlaptop .content p{
+font-size: 1em;
+color: #ffffff;
+}
+.bannerswitch .content 
+{
+max-width: 900px;
+text-align: center;
+}
+.bannerswitch .content h2{
+font-size: 5em;
+color: #ffffff;
+
+}
+.bannerswitch .content p{
+font-size: 1em;
+color: #ffffff;
+}
+.btn-general {
+    font-size: 1em;
+    color: #ffffff;
+    background-color: darkblue;
+    display: inline-block;
+    padding: 10px 30px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    transition: 0.5s;
+}
+.btn-general:hover{
+
+    letter-spacing: 6px;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 40px 100px;
+    z-index: 10000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 500ms;
+}
+nav 
+{
+    margin-right: 70px;
+}
+nav a{
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 15px;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    color:#ffffff;
+    text-transform: uppercase;
+    border-bottom:  3px solid transparent;
+    padding: 10px 1px;
+    transition: 500ms;
+}
+.active
+{
+border-color: rgb(0, 22, 223);
+}
+nav a:hover
+{
+    border-color: rgb(0, 22, 223);
+}
+.bgc{
+background: #eeeeee;
+padding: 10px;
+}
+.bgc .logo{
+
+    font-size: 30px;
+    color: #000000;
+}
+
+.bgc nav a{
+color: #222222;
+}
+header .logo
+{
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 2em;
+    text-decoration: none;
+}
+header .logo span
+{
+    color: rgb(0, 81, 255);
+}
+@media (max-width: 791px){
+ header {
+    flex-direction: column;
+    padding: 20px;
+}
+nav{
+    padding: 15px;
+    margin: 0px;
+    }
+    section
+    {   
+    padding: 20px;
+    }
+    .banner .content h2{
+        font-size: 2em;
+        color: #fff;
+    
+    }
+    .row {
+        position: relative;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    
+    }
+    .row .col50 {
+        position: relative;
+        width: 100%;
+    }
+    
+    .row .col50 .imgBx
+    {
+        height: 300px;
+        margin-top: 20px;
+    }
+    
+    .menu .content
+    {
+        margin-top: 20px;
+    }
+    .menu .content .box
+    {
+        margin: 10px;
+    }
+    
+    .menu .content .box .imgBx
+    {
+    
+        height: 60px;
+    } 
+}
+
+section
+{
+padding: 100px;
+}
+.row
+{
+    position:relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.row .col50
+{
+ position: relative;
+ width: 48%;   
+}
+.titleText
+{
+color: #111111;
+font-size: 2em;
+font-weight: 300;
+}
+.titleText span
+{
+    color: rgb(0, 22, 223);
+    font-weight: 700;
+    font-size: 1.5em;
+}
+.row .col50 .imgBx
+{
+    position: relative;
+    width: 70%;
+    /* min-height: 300px; */
+    height: 150%;
+}
+
+.row .col50 .imgBx img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.title
+{
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+
+.menu .content
+{
+display: flex;
+justify-content: center;
+flex-direction: row-reverse;
+flex-wrap: wrap;
+margin-top: 40px;
+
+}
+.menu .content .box
+{
+    width: 340px;
+    margin: 20px;
+    border: 15px solid #ffffff;
+    box-shadow: 0 5px 35px rgba(0, 0, 0, 0.08);
+}
+.menu .content .box .imgBx
+{
+    position: relative;
+    width: 100%;
+    height: 300px;
+}
+
+.menu .content .box .imgBx img  
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.menu .content .box .text
+{
+    padding: 15px 0 5px;
+}
+
+.menu .content .box .text h3
+{
+    font-weight: 400;
+    color: #111;
+}
+
+.experts .content
+{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-top: 40px;
+}
+.experts .content .box
+{
+width: 250px;
+margin: 15px;
+
+}
+.experts .content .box .imgBx
+{
+ position: relative;
+ width: 100%;
+ height: 300px;
+
+}
+.experts .content .box .imgBx img
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;    
+    height: 100%;
+    object-fit: cover;
+}
+.experts .content .box .text 
+{
+    padding: 15px 0 5px;
+}
+.experts .content .box .text h3
+{
+    font-weight: 400;
+    color: #111;
+}
+
+.contact 
+{
+    background: url(/bg2.jpg);
+    background-size: cover;
+}
+.contactForm
+{
+    padding: 75px 50px;
+    background: #ffffff;
+    box-shadow: 0 15px 50px rgba(0,0,0,0.1);
+    max-width: 500px;
+    margin-top: 50px; 
+}
+
+.contactForm h3
+{
+color: #111;
+font-size: 1.2em;
+margin-bottom: 20px;
+font-weight: 500;
+
+}
+
+.contactForm .inputBox
+{
+    position: relative;
+    width: 100%;
+    margin-bottom: 20px;
+
+}
+
+.contactForm .inputBox input,
+.contactForm .inputBox textarea
+{
+    width: 100%;
+    border: 1px solid #555;
+    padding: 10px;
+    color: #111;
+    outline: none;
+    font-size: 16px;
+    font-weight: 300;
+}
+.contactForm .inputBox input[type="submit"]
+{
+    font-size: 1em;
+    color: #ffffff;
+    background: darkblue;
+    display: inline-block;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    transition: 0.5s;
+    max-width: 100px;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+}
+
+.copyrightText
+{
+    padding: 8px 40px;
+    border-top: 1px solid rgba(0,0,0,0.1);
+    text-align: center;
+}
+.copyrightText p
+{
+    color: #333; 
+
+}
+.copyrightText a
+{
+    color: darkblue;
+    font-weight: 500;
+    text-decoration: none; 
+    
+}
